@@ -19,7 +19,7 @@ describe('App', function(){
 
     describe('ConverterYearsToSeconds()', function () {
         it('10 Años = 13140000 Segundos', function () {
-            assert.equal(app.ConverterYearsToSeconds(10), 13140000);
+            assert.equal(app.ConverterYearsToSeconds(10), 315360000);
         });
     });
 
